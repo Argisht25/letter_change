@@ -13,7 +13,6 @@ function LetterChanges(text) {
             default:
                 s[i] = String.fromCharCode(1 + s[i].charCodeAt(0));
         }
-
-        return s.join('');
-    }
+   }
+     return s.join('');
 }
